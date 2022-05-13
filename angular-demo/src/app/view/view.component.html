@@ -1,0 +1,14 @@
+<div #box>
+   <div class="items"><h1 #highlight>hello world</h1></div>
+   <div class="items"><h2 #highlight>hello ajy</h2></div>
+   <div class="items"><h3 #highlight>hello deep</h3></div>
+  
+  </div>
+  <div class="button-area">
+    <button type="button" class="prev" style="font-size: 2em;"(click)="prev()">prev</button>
+    <button type="button" class="next" style="font-size: 2em; " (click)="next()">next</button>
+  </div>
+
+  <button (click)="component()">Child component</button>
+  <button (click)="clear()">clear component</button>
+ 
